@@ -1,6 +1,6 @@
-package com.biblioteca.SB.services;
+package com.biblioteca.SGB.services;
 
-import com.biblioteca.SB.models.Usuario;
+import com.biblioteca.SGB.models.Usuario;
 import org.springframework.stereotype.Service;
 
 @Service

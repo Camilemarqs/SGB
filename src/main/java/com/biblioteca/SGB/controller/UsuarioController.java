@@ -1,8 +1,8 @@
-package com.biblioteca.SB.controller;
+package com.biblioteca.SGB.controller;
 
-import com.biblioteca.SB.models.Usuario;
+import com.biblioteca.SGB.models.Usuario;
 
-import com.biblioteca.SB.services.UsuarioService;
+import com.biblioteca.SGB.services.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
