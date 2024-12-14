@@ -19,14 +19,8 @@ public class UsuarioController{
     @PostMapping
     public String logar(@RequestBody Usuario usuario){
 
-        if(usuarioService.logar(usuario)){
+        return usuarioService.logar(usuario);
 
-            return "LOGADO";
-
-        }else{
-
-            return "ERRO!";
-        }
 
     }
 
